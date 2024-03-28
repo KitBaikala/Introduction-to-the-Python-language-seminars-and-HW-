@@ -17,3 +17,26 @@
 # На выходе:
 
 # 3 9
+
+# m/v
+# s = 12
+# p = 27
+# x, y = 0, 0
+
+# for y in range(1000):
+#      for x in range(1000):
+#          if x > y:
+#              break
+#          if x + y == s and x * y == p:
+#              print(x, y)
+
+# версия автотеста
+# solutions = []
+# for i in range(1, 1001):
+#     for j in range(1, 1001):
+#         if s == i + j and p == i * j:
+#             solutions.append((min(i, j), max(i, j)))
+# solutions = list(set(solutions))
+
+# for solution in solutions:
+#     print(solution[0], solution[1])
